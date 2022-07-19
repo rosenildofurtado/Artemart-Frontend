@@ -1,0 +1,54 @@
+.navbar-items {
+  list-style-type: none;
+}
+
+.navbar-items li {
+  margin-right: 1em;
+}
+
+.header-items {
+  list-style-type: none;
+  margin: .2em auto;
+}
+
+.header-items li {
+  margin: 0em .5em;
+}
+
+.hr-header {
+  border: none;
+  height: 4px;
+  background-color: #020202;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.p-inputtext {
+  padding: 0.45rem 0.75rem !important;
+}
+
+.div-header {
+  background-color: #8B5CF6;
+
+  color: white;
+}
+
+.ul-header li {
+  margin: 0em .5em;
+  padding: 1em 1.5em;
+  transition: 0.2s;
+  border-radius: 2em;
+  cursor: pointer;
+}
+
+.ul-header li:hover {
+  background-color: #fad66b;
+  color: #020202;
+}
+
+.header-items i {
+  margin-top: 3px;
+  margin-right: 3px;
+  cursor: pointer;
+}

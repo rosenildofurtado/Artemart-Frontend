@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  frontend:
+    build: .
+    image: artemartepds/frontend
+    container_name: artemart_frontend 
+    restart: always
+    tty: true
+    ports:
+      - '80:3000'

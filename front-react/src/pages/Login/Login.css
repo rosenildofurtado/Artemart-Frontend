@@ -1,0 +1,160 @@
+.login-body {
+  background: url('../../images/Login/galeria.jpg');
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.logo-login {
+  padding-top: 64px;
+  margin-bottom: 64px;
+}
+
+.registro-login {
+  margin-top: 48px;
+}
+
+.button-form {
+  margin-top: 16px;
+}
+
+.link-registro {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px;
+  border-radius: 1em;
+}
+
+.link-registro:hover {
+  background: #fad66b;
+  transition: 0.1s;
+}
+
+li p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.login-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.login-content ul li {
+  margin-bottom: 8px;
+}
+
+.login-card {
+  padding: 80px;
+  display: block;
+  position: fixed;
+  background-color: #ffffff;
+  height: 200%;
+  width: 100%;
+  left: -50%;
+  top: -50%;
+  border-radius: 50%;
+  opacity: 0.90;
+  filter: alpha(opacity=90);
+}
+
+.login-content {
+  text-align: left;
+  padding: 60px 0 0 100px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.input-text-login {
+  margin-top: 0.5em;
+}
+
+.credits {
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 4px;
+  background: rgba(49, 49, 49, 0.8);
+  backdrop-filter: blur(5px);
+}
+
+.credits a {
+  color: white;
+}
+
+.credits a:hover {
+  color: black;
+  background-color: white;
+  transition: 0.1s;
+}
+
+.login-responsive {
+  display: none !important;
+}
+
+@media screen and (max-width: 1080px) {
+  .login-responsive {
+    display: block !important;
+    width: 90%;
+    background: #ffffffd0;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1em;
+  }
+
+  .login-responsive h2 {
+    font-size: 1.6em;
+  }
+
+  .login-body {
+    background-position-x: center;
+  }
+
+  .login-responsive ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .login-responsive li {
+    margin-top: .5em;
+    margin-left: 0;
+  }
+
+  .login-card {
+    display: none;
+  }
+
+  .login-content {
+    display: none;
+  }
+
+  .registro-login {
+    padding-bottom: 4em;
+  }
+
+  .credits {
+    position: fixed;
+  }
+
+  .login-responsive .field {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #toast-ref {
+    width: 90%;
+  }
+}

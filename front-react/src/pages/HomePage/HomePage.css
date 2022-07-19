@@ -1,0 +1,12 @@
+.homepage-body {
+  background-color: #fad66b;
+  min-height: 100vh;
+}
+
+.hr-homepage {
+  margin: 0;
+  padding: 0;
+  height: 1px;
+  background-color: var(--surface-d);
+  border: 0;
+}

@@ -1,0 +1,51 @@
+.footer-body {
+  background-color: #fad66b;
+  width: 100%;
+  padding: 1em 0em 4em 0em;
+}
+
+.footer-info {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-no-margin {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.footer-contact {
+  list-style-type: none;
+}
+
+.footer-contact a {
+  margin-left: .5em;
+  color: black;
+  text-decoration: none;
+  padding: .2em .4em;
+  border-radius: .2em;
+  transition: .2s;
+}
+
+.footer-contact a:hover {
+  background-color: #8B5CF6;
+  color: white;
+}
+
+.footer-contact li {
+  margin: 0em .5em;
+}
+
+.footer-contact h3 {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.footer-info {
+  list-style-type: none;
+  padding-top: 1em; 
+}
+
+.footer-body h2 {
+  margin-top: 2em;
+}

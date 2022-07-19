@@ -1,0 +1,32 @@
+/* CarouselDemo.css */
+.carousel-demo .product-item .product-item-content {
+  border: 1px solid var(--surface-300);
+  border-radius: 3px;
+  margin: .3rem;
+  text-align: center;
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.carousel-demo .product-item .product-image {
+  height: 15em;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.carousel-demo h1 {
+  color: #424242;
+}
+
+.carousel-demo h3 {
+  width: 330px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+  padding: 20px;
+  font-size: 18px;
+  margin: auto;
+  background: white;
+  resize: none;
+}
